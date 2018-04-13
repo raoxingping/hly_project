@@ -1,0 +1,79 @@
+.homePageDomesticTour {
+  width: 1188px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+.homePageDomesticTourTitle {
+  font: bold 18px/28px "微软雅黑";
+  color: #333;
+  border-bottom: 3px solid #e694a6;
+  border-bottom: 3px solid #e694a6;
+}
+.homePageDomesticTourTitle> h4 {
+  margin-left:10px;
+}
+.homePageDomesticTourLeft {
+  width:220px;
+  height:483px;
+  background: url("../img/guonei.png") no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  float: left;
+  margin: 0 20px 0 -20px;
+}
+.homePageDomesticTourContent {
+  width:968px;
+  float: left;
+}
+.homePageDomesticTourContentList{
+  display: inline-block;
+  vertical-align: middle;
+}
+.homePageDomesticTourContentList > li {
+  vertical-align: top;
+  width: 220px;
+  position: relative;
+  margin: 20px 11px 0;
+  float: left;
+}
+
+.homePageDomesticTourContentList > li:hover {
+  box-shadow: 1px 1px 3px #f60;
+}
+.homePageImageContentBox {
+  background-color: #fff;
+  padding: 0 5px 5px;
+  height:100%;
+}
+.homePageImageContent {
+  height:40px;
+  width: 100%;
+  overflow: hidden;
+  font: bold 12px/20px "微软雅黑";
+}
+.homePageImageContent:hover a {
+  color: #f60;
+}
+.homePageImageContent > a {
+  color: #333;
+}
+
+.homePageImageMoneyAndSatisfied {
+  font: 12px/42px "微软雅黑";
+}
+
+.homePageImageMoneyAndSatisfied > .homePageImageMoney {
+  float: left;
+  color: #f60;
+}
+
+.homePageImageMoneyAndSatisfied > .homePageImageMoney > strong {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.homePageImageMoneyAndSatisfied > .homePageImageSatisfied {
+  float: right;
+  color: #999;
+  margin-right: 5px;
+}

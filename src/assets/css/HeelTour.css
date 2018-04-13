@@ -1,0 +1,930 @@
+/*旅游内容*/
+.productBody {
+  width: 1188px;
+  margin: 20px auto 20px;
+  border: 1px solid #ddd;
+  padding: 4px 28px;
+  background-color: #fff;
+}
+
+.productBody h3 {
+  font: 21px/61px "微软雅黑";
+  color: #111;
+}
+
+.productBody .tourismType {
+  font: 12px/16px "微软雅黑";
+}
+
+.productBody .tourismType > strong,
+.productBody .tourismType > span {
+  float: left;
+}
+
+.productBody .tourismType > strong {
+  color: #fff;
+  background-color: #2dbb55;
+  padding: 0 2px;
+  margin-right: 10px;
+}
+
+.tourismType > span i {
+  color: #f80;
+}
+
+.productBody .productBodyIntroduce {
+  margin-top: 12px;
+}
+
+.productBody .productBodyIntroduce .pictureShowAndTime {
+  width: 500px;
+  float: left;
+}
+
+.pictureShow .pictureShowList li {
+  float: left;
+}
+
+.pictureShow .pictureShowBtn {
+  padding: 5px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.pictureShow .pictureShowBtn .pictureShowBtnLeft {
+  text-indent: 0.6em;
+  width: 28px;
+  height: 50px;
+  float: left;
+}
+
+.pictureShow .pictureShowBtn .pictureShowBtnLeft:hover,
+.pictureShow .pictureShowBtn .pictureShowBtnRight:hover {
+  background-color: #ccc;
+}
+
+.pictureShowBtn .pictureShowBtnLeft i {
+  display: inline-block;
+  height: 18px;
+  width: 11px;
+  background: url("../img/icon.png") no-repeat -176px -214px;
+  margin: 16px auto 0;
+}
+
+.pictureShowBtn .pictureShowBtnList {
+  float: left;
+  overflow: hidden;
+  width: 432px;
+}
+
+.pictureShowBtn .pictureShowBtnList li {
+  float: left;
+  margin: 0 4px;
+}
+
+.pictureShowBtn .pictureShowBtnRight {
+  text-indent: 0.8em;
+  width: 28px;
+  height: 50px;
+  float: right;
+}
+
+.pictureShowBtn .pictureShowBtnRight i {
+  display: inline-block;
+  height: 18px;
+  width: 11px;
+  background: url("../img/icon.png") no-repeat -366px -196px;
+  margin: 16px auto 0;
+}
+
+/*日历*/
+.calendarWrap {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-bottom: none;
+}
+
+.calendarWrap .monthSelecte {
+  padding: 0 37px;
+  font: 12px/16px "微软雅黑";
+  border-right: 1px solid #ddd;
+}
+
+.calendarWrap .monthSelecte li {
+  float: left;
+}
+
+.monthSelecte li a {
+  display: block;
+  padding: 4px 18px;
+}
+
+.monthSelecte li strong {
+  color: #666;
+}
+
+.monthSelecte li span {
+  display: block;
+  color: #ff6600;
+}
+
+.calendarWrap .monthSelecte .active {
+  background-color: #535d63;
+}
+
+.monthSelecte .active strong {
+  color: #fff;
+}
+
+.calendarList .weekList {
+  background-color: #535d63;
+  color: #fff;
+  font: 12px/26px "微软雅黑";
+  border-right: 1px solid #ddd;
+}
+
+.calendarList .weekList li {
+  float: left;
+  padding: 0 29px;
+
+}
+
+/*日历*/
+#calendarContentList {
+  min-height: 288px;
+  font: 12px/16px "微软雅黑", arial;
+}
+
+#calendarContentList > li {
+  width: 71.2px;
+  height: 48px;
+  float: left;
+  text-indent: .5em;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  font: 12px/14px "微软雅黑";
+  position: relative;
+}
+
+#calendarContentList li .mask {
+  width: 320px;
+  position: absolute;
+  top: 47px;
+  left: 0;
+  transition: .5s;
+  transform: scale(0);
+  background-color: #fff;
+  z-index: 999;
+  padding: 5px 10px;
+  box-shadow: 0 0 3px #f60;
+}
+
+#calendarContentList li:hover .mask {
+  transform: scale(1);
+}
+
+#calendarContentList .mask i {
+  position: absolute;
+  top: -6px;
+  left: 38px;
+  width: 10px;
+  height: 6px;
+  background: #fff url("../img/maskIcon.png");
+}
+
+#calendarContentList .maskContent span,
+#calendarContentList .maskContent strong {
+  display: inline;
+  font: 12px/30px "微软雅黑";
+}
+
+#calendarContentList .maskContent div {
+  float: left;
+  margin-right: 30px;
+}
+
+#calendarContentList li span {
+  display: block;
+  width: 100%;
+  color: #999;
+  text-align: center;
+}
+
+#calendarContentList li strong {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #f60;
+}
+
+.pictureShowAndTime .prompt {
+  font: 12px/3 "微软雅黑";
+  color: #999;
+}
+
+/*票价详情*/
+.productBody .productBodyIntroduce .pictureShowAndTimeDetails {
+  width: 630px;
+  float: left;
+}
+
+.pictureShowAndTimeDetails .ticketPrice {
+  width: 664px;
+  background-color: #ebe2e3;
+  position: relative;
+  padding: 15px 0;
+  color: #999;
+}
+
+.pictureShowAndTimeDetails .ticketPrice > i {
+  position: absolute;
+  right: 1px;
+  bottom: -4px;
+  border: none;
+  border-left: 4px solid #a4371a;
+  border-bottom: 4px solid transparent;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  text-indent: 0;
+}
+
+.pictureShowAndTimeDetails .ticketPrice .ticketPriceContent {
+  margin-left: 50px;
+}
+
+.ticketPrice .ticketPriceContent * {
+  display: inline-block;
+}
+
+.ticketPrice .ticketPriceContent > span {
+  font: 12px/54px "微软雅黑";
+}
+
+.ticketPrice .ticketPriceContent strong {
+  font: bold 24px/54px "微软雅黑";
+  color: #ff6600;
+}
+
+.ticketPriceContent > span > span {
+  color: #f60;
+}
+
+.ticketPriceContent > span > a {
+  margin-left: 20px;
+  border-bottom: 1px dashed #f60;
+  color: #f60;
+  line-height: 1.2;
+}
+
+.evaluate {
+  float: right;
+}
+
+.evaluate .satisfaction {
+  width: 40px;
+  font: 12px/2 '微软雅黑';
+  margin-right: 30px;
+}
+
+.evaluate .satisfaction a {
+  color: #f60;
+  font: bold 20px/24px arial;
+}
+
+.satisfaction a i {
+  font: 12px/1 '微软雅黑';
+}
+
+.evaluate .comment {
+  width: 150px;
+  font: 12px/2 '微软雅黑';
+}
+
+.evaluate .comment a {
+  color: #999;
+}
+
+.pictureShowAndTimeDetails .ticketType {
+  padding: 7px 0 0 30px;
+}
+
+.pictureShowAndTimeDetails .ticketType .ticketTypeOK {
+  padding: 0 15px 10px 10px;
+  font: 12px/35px "微软雅黑";
+  color: #999;
+  border-bottom: 1px dotted #ccc;
+}
+
+.ticketTypeOK .Lately * {
+  float: left;
+}
+
+.ticketTypeOK .Lately strong {
+  margin-left: 15px;
+}
+
+.ticketTypeOK .Characteristic * {
+  float: left;
+}
+
+.Characteristic li {
+  margin-right: 20px;
+  color: #666;
+}
+
+.Characteristic li i {
+  padding-left: 12px;
+  height: 12px;
+  background: url("../img/icon.png") no-repeat -90px -196px;
+  margin: 12px 4px 0 10px;
+}
+
+.ticketTypeTwoOK * {
+  float: left;
+}
+
+.ticketTypeTwoOK strong {
+  margin-left: 10px;
+  color: #666;
+}
+
+.tourOperator {
+  height: 50px;
+  font: bold 14px/50px "微软雅黑";
+  color: #666;
+}
+
+.tourOperator img {
+  margin-right: 15px;
+}
+
+.tourOperator div:nth-of-type(1) {
+  float: left;
+}
+
+.tourOperator .customerSer {
+  float: right;
+}
+
+.customerSer > * {
+  float: left;
+}
+
+.customerSer .phone {
+  margin-right: 35px;
+  color: #999999;
+}
+
+.customerSer .phone span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+  background: url("../img/icon.png") no-repeat -276px -250px;
+}
+
+.customerSer .inPhone {
+  color: #999;
+}
+
+.customerSer .inPhone span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+  background: url("../img/icon.png") no-repeat -262px -273px;
+}
+
+.ticketType .setOut {
+  font: 12px/42px "微软雅黑";
+  color: #999;
+  padding-left: 10px;
+}
+
+.setOut .button {
+  margin: 28px 0 0 77px;
+}
+
+.setOut .button a:nth-of-type(1) {
+  text-align: center;
+  float: left;
+  width: 132px;
+  background-color: #f80;
+  color: #fff;
+  font: bold 18px/40px "微软雅黑";
+  margin-right: 20px;
+}
+
+.setOut .button a:nth-of-type(1):hover {
+  background-color: #f60;
+}
+
+.setOut .button a:nth-of-type(2) {
+  text-align: center;
+  float: left;
+  width: 105px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  font: bold 12px/30px "微软雅黑";
+  color: #f60;
+}
+
+.setOut .button a:nth-of-type(2) i {
+  margin-left: 5px;
+  margin-top: 2px;
+  vertical-align: text-top;
+  background-image: url(../img/icon.png);
+  background-position: -187px -214px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
+
+/*内容导航*/
+header {
+  width: 1188px;
+  background-color: #535d63;
+  z-index: 99999;
+}
+
+.headerNav {
+  padding: 5px 16px 0;
+}
+
+.headerNav > span {
+  float: left;
+  padding: 0 12px;
+  font: 16px/40px "微软雅黑";
+  color: #fff;
+}
+
+#content {
+  width: 1188px;
+}
+
+.box {
+  padding: 20px 19px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/*线路详情*/
+.productDetailsContent > div {
+  float: left;
+}
+
+.lineStep {
+  width: 72px;
+  height: 100px;
+  border-right: 2px solid #ddd;
+}
+
+/*产品详情*/
+.reason {
+  width: 1000px;
+  margin-left: 20px;
+}
+
+.productDetailsContent {
+  float: left;
+}
+
+.productDetailsWrap {
+  margin-top: 20px;
+  padding: 20px 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/*线路日程*/
+.LineSchedule {
+  margin-top: 20px;
+  padding: 20px 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.LineScheduleContent {
+  float: left;
+  width: 1028px;
+}
+
+.LineScheduleContentTitle {
+  font: bold 20px/36px "微软雅黑";
+}
+
+.scheduleList {
+  position: static;
+  left: auto;
+  top: auto;
+  font: 12px/2 "微软雅黑";
+  background: url("../img/bgBorder.png") no-repeat 77px 0;
+}
+
+.scheduleList li > a {
+  display: inline-block;
+  background-color: #eee;
+  margin-bottom: 10px;
+  width: 60px;
+  text-align: center;
+  color: #666;
+}
+
+.scheduleList > .border {
+  float: right;
+  height: 100%;
+  width: 2px;
+  background-color: green;
+}
+
+.scheduleList .active + i {
+  box-shadow: 0 0 5px 2px green;
+}
+
+.scheduleList li > i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.scheduleList .active {
+  background-color: #22c233;
+}
+
+.scheduleList .active > a {
+  color: #fff;
+}
+
+.dayDetailedTitle {
+  display: block;
+  width: 100%;
+  font: bold 20px/36px "微软雅黑";
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dayDetailed {
+  margin-left: 20px;
+  font: 14px/30px "微软雅黑";
+}
+
+.dayDetailed > div {
+  padding: 10px 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.dayDetailed > div > strong {
+  color: #999;
+}
+
+.dayDetailed > div > span {
+  color: #999;
+  padding-left: 10px;
+}
+
+.imgBox {
+  margin-left: 40px;
+}
+
+.activeContentList > span {
+  display: block;
+}
+
+.activeContentList > span > p {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.activeContentList > span > .information {
+  font: bold 15px/2.5 "微软雅黑";
+  margin-left: 10px;
+}
+
+.imgBox img {
+  width: 400px;
+  height: 300px;
+  margin: 20px 20px;
+
+}
+
+/*套餐说明*/
+.packageDescription {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 0px 20px;
+}
+#h3{
+  padding-top: 20px;
+}
+
+.packageDescriptionContent {
+  float: left;
+  width: 1028px;
+}
+
+.buyNeedToKnow > * {
+  float: left;
+}
+
+.buyNeedToKnow .couponsActiveWrap {
+  width: 1028px;
+}
+
+.wrapMoney,
+.unsubscribePolicy,
+.buyNeedToKnow,
+.noWrapMoney {
+  margin-top: 20px;
+}
+
+.wrapMoneyContent,
+.unsubscribePolicyContent,
+.buyNeedToKnowContent,
+.noWrapMoneyContent {
+  margin-left: 20px;
+}
+
+/*游客点评*/
+.commentsOnTourists {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.commentsOnTouristsContentWrap {
+  width: 1028px;
+  float: left;
+}
+
+.commentsOnTouristsStatistics {
+  border: 1px solid #ccc;
+}
+
+.commentsOnTouristsStatisticsContent {
+  padding: 20px 0;
+}
+
+.commentsOnTouristsStatisticsContent > * {
+  float: left;
+}
+
+.commentsOnTouristsStatistics .satisfaction {
+  width: 200px;
+  text-align: center;
+}
+
+.commentsOnTouristsStatistics .satisfaction strong {
+  font: 40px/2 "微软雅黑";
+  color: #ff8800;
+}
+
+.commentsOnTouristsStatistics .satisfaction span {
+  font: 14px/1 "微软雅黑";
+  display: block;
+  color: #999;
+}
+
+.statisticalChart {
+  width: 600px;
+  margin-top: 10px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.statisticalChartLeft {
+  float: left;
+  font: 14px/2 "微软雅黑";
+  margin-left: 10px;
+}
+
+.statisticalChartLeft li * {
+  float: left;
+}
+
+.statisticalChartLeft span:nth-of-type(1) {
+  width: 90px;
+  color: #999;
+  text-align: left;
+}
+
+.statisticalChartLeft span:nth-of-type(2) {
+  color: #f80;
+}
+
+.statisticalChartLeft .statisticalChartLeftBar {
+  width: 112px;
+  height: 13px;
+  background-color: #ddd;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+.statisticalChartLeftBarChild {
+  background-color: #ff8800;
+  height: 13px;
+}
+
+.statisticalChartRight {
+  width: 290px;
+  float: left;
+  margin-left: 50px;
+  color: #999;
+  margin-top: 15px;
+}
+
+.statisticalChartRight i {
+  color: #ff8800;
+}
+
+.statisticalChartRight > * {
+  float: left;
+  width: 145px;
+}
+
+.commentOnAComment {
+  text-align: center;
+  width: 200px;
+  padding: 0 20px;
+  font: 13px/1.5 "微软雅黑";
+  color: #999;
+  margin-top: 20px;
+}
+
+.commentOnAComment i {
+  color: #f80;
+}
+
+.commentOnAComment a {
+  width: 80px;
+  display: block;
+  font: 14px/2 "微软雅黑";
+  background-color: #22c233;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin: 20px auto 0;
+}
+
+.commentsOnTouristsStatisticsTypeList {
+  border-top: 1px solid #ccc;
+  padding: 0 20px 15px;
+  font: 14px/1.5 "微软雅黑";
+}
+
+.commentsOnTouristsStatisticsTypeList li {
+  float: left;
+  margin: 15px 12px 0;
+}
+
+.commentsOnTouristsStatisticsTypeList li .active {
+  background-color: #22c233;
+  color: #fff;
+}
+
+.commentsOnTouristsStatisticsTypeList a {
+  display: block;
+  padding: 0 15px;
+  border: 1px solid #22c233;
+  color: #22c233;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.evaluationContent > li > * {
+  float: left;
+}
+
+.touristInfromation {
+  width: 130px;
+  margin-top: 30px;
+}
+
+.touristInfromation img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.touristInfromation span {
+  font: 15px/2 "微软雅黑";
+  display: block;
+  text-align: center;
+  color: #333;
+}
+
+.touristInfromation strong {
+  font: 16px/2 "微软雅黑";
+  text-align: center;
+  display: block;
+  color: #ff8800;
+}
+
+.touristComment {
+  width: 750px;
+  padding: 18px 0;
+}
+
+.touristCommentList {
+  padding: 5px 0;
+  font: 13px/20px "微软雅黑";
+  color: #999;
+  background-color: #f0f2f5;
+}
+
+.touristCommentList li:nth-of-type(1) {
+  border-left: none;
+  color: #ff7733;
+}
+
+.touristCommentList li {
+  border-left: 1px solid #d4dae2;
+  float: left;
+  padding: 0 20px;
+}
+
+.touristCommentContent {
+  font: 14px/2 "微软雅黑";
+  margin: 10px 0;
+}
+
+.TypeCommentList {
+  font: 14px/24px "微软雅黑";
+}
+
+.TypeCommentList li {
+  margin-top: 5px;
+}
+
+.TypeCommentList li > strong {
+  float: left;
+  color: #999;
+}
+
+.TypeCommentList li > span {
+  float: left;
+  max-width: 680px;
+  margin-left: 5px;
+}
+
+.uploadPictureList {
+  margin-top:10px;
+  height:100px;
+  overflow: hidden;
+}
+
+.uploadPictureList li {
+  float: left;
+  margin-right: 10px;
+}
+
+.touristCommentTime {
+  font: 12px/5 "微软雅黑";
+  color: #ccc;
+}
+
+.evaluationContent .commentGive {
+  float: right;
+  width: 120px;
+  margin-top: 18px;
+  border-radius: 5px;
+  overflow: hidden;
+  font: 14px/37px "微软雅黑";
+}
+
+.commentGive strong {
+  text-align: center;
+  display: block;
+  width:100%;
+  color: #fff;
+  background-color: #ffac4c;
+}
+
+.commentGive span {
+  display: block;
+  text-align: center;
+  background-color: #fdfaf1;
+  border-bottom: 1px dotted #fdfaf1;
+}
+
+.evaluationContent>li {
+  border-bottom: 1px dashed #dddddd;
+}

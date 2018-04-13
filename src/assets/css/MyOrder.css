@@ -1,0 +1,324 @@
+input {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.MyOrderWrapHeader {
+  padding: 20px 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.MyOrderWrapHeader > div {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.MyOrderWrapHeaderLogo {
+  position: relative;
+  float: left;
+}
+
+.MyOrderWrapHeaderLogo a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/*订单进度*/
+.MyOrderWrapHeaderProgressBar {
+  float: right;
+}
+
+/*订单详情*/
+
+#MyOrderWrapContentWrap {
+  width: 100%;
+  padding-top: 40px;
+  background-color: #f1f2f6;
+  padding-bottom: 20px;
+}
+
+.MyOrderWrapContent {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+/*订单详情*/
+.MyOrderWrapContentDetails {
+  float: left;
+  width: 940px;
+  border-top: 3px solid #ffb524;
+  margin-right: 10px;
+}
+
+i {
+  color: #f60;
+}
+
+.MyOrderWrapContentDetails h4 {
+  font: 16px/40px "微软雅黑";
+  color: #2b3537;
+  border-bottom: 2px solid #f2f2f2;
+  text-indent: 45px;
+  position: relative;
+}
+
+.MyOrderWrapContentDetailsInformtion {
+  background-color: #fff;
+}
+
+.MyOrderWrapContentDetailsInformtion > h4 > i {
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  width: 26px;
+  height: 24px;
+  background: url("../img/icon.png") no-repeat -346px -273px;
+}
+
+.MyOrderWrapContentDetailsInformtionContent {
+  padding: 22px 45px;
+}
+
+.MyOrderWrapContentDetailsInformtionContent > h5 {
+  font: bold 18px/28px "微软雅黑";
+  color: #41b129;
+}
+
+.MyOrderWrapContentDetailsInformtionContentList {
+  font: 14px/40px "微软雅黑";
+  color: #363e40;
+}
+
+.money {
+  color: #f60;
+}
+
+.MyOrderWrapContentDetailsInformtionContentList > li > strong {
+  display: inline-block;
+  width: 80px;
+}
+
+/*联系人信息*/
+.MyOrderWrapContentDetailsPeopleInformtion {
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.MyOrderWrapContentDetailsPeopleInformtion > h4 > i {
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  width: 24px;
+  height: 25px;
+  background: url("../img/icon.png") no-repeat -245px -70px;
+}
+
+.MyOrderWrapContentDetailsPeopleInformtionList {
+  font: 14px/40px "微软雅黑";
+  color: #363e40;
+  padding: 22px 45px;
+}
+
+.MyOrderWrapContentDetailsPeopleInformtionList > li > span {
+  display: inline-block;
+  width: 80px;
+}
+
+.MyOrderWrapContentDetailsPeopleInformtionList > li > input {
+  height: 24px;
+  width: 200px;
+  font: 14px/24px "微软雅黑";
+  border: 1px solid #ccc;
+  padding: 0 5px;
+}
+
+/*出游人信息*/
+.MyOrderWrapContentDetailsExcursionInformtion {
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.MyOrderWrapContentDetailsExcursionInformtion > h4 > i {
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  width: 24px;
+  height: 25px;
+  background: url("../img/icon.png") no-repeat -221px -70px;
+}
+
+.MyOrderWrapContentDetailsExcursionInformtion > h4 > span {
+  font: 12px/40px "微软雅黑";
+  color: #9c9c9c;
+  margin-left: 30px;
+
+}
+
+.InformtionList {
+}
+
+.InformtionList > li {
+  width: 858px;
+  border: 1px solid #f4f4f6;
+  margin: 20px auto 0;
+  padding: 20px 10px;
+}
+
+.InformtionList > li > span {
+  font: 12px/28px "微软雅黑";
+  padding: 0 12px;
+  border: 1px solid #999ca1;
+  color: #999ca1;
+  float: left;
+}
+
+.InformtionListDetails {
+  float: left;
+}
+
+.InformtionListDetailsList > li {
+  margin-bottom: 10px;
+}
+
+.InformtionListDetailsList > li > input {
+  width: 200px;
+  border: 1px solid #dfdfdf;
+  padding: 0 5px;
+  font: 12px/24px "微软雅黑";
+}
+
+.InformtionListDetailsList > li > strong {
+  text-align: right;
+  display: inline-block;
+  width: 90px;
+  color: #a0a59f;
+}
+
+.InformtionListClear {
+  float: right;
+  color: #9a999f;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.NoFillInWrap {
+  padding: 25px 0;
+  font: 12px/30px "微软雅黑";
+}
+
+.NoFillIn {
+  float: right;
+  margin-right: 80px;
+  padding: 0 30px;
+  border: 1px solid #ccc;
+  color: #58656e;
+}
+
+/*提交订单*/
+.MyOrderWrapContentDetailsSubmit {
+  margin-top: 20px;
+  background-color: #fefee6;
+}
+
+.MyOrderWrapContentDetailsSubmitWrap {
+  margin-right: 65px;
+  float: right;
+}
+
+.MyOrderWrapContentDetailsSubmitWrap > span {
+  float: left;
+  font: 15px/50px "微软雅黑";
+  margin-top: 20px;
+}
+
+.MyOrderWrapContentDetailsSubmitWrap > strong {
+  float: left;
+  font: bold 22px/60px "微软雅黑";
+  margin-top: 12px;
+  color: #f60;
+  margin-left: 20px;
+}
+
+.MyOrderWrapContentDetailsSubmitWrap > strong > em {
+  font-size: 17px;
+}
+
+.MyOrderWrapContentDetailsSubmitWrap > a {
+  float: left;
+  font: 16px/40px "微软雅黑";
+  color: #fff;
+  background-color: #f60;
+  padding: 0 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+/*订单总金额*/
+.MyOrderWrapContentMoney {
+  width: 240px;
+  float: left;
+  background-color: #fff;
+}
+
+.MyOrderWrapContentMoneyBorder {
+  width: 246px;
+  height: 9px;
+  background: url("../img/icon.png") no-repeat 0 -403px;
+  margin-left: -3px;
+}
+
+.MyOrderWrapContentMoneyInformtion {
+  padding: 0 15px;
+  font: 14px/40px "微软雅黑";
+  border-bottom: 1px solid #dbb06b;
+}
+
+.MyOrderWrapContentMoneyInformtion > h4 {
+  font-weight: bold;
+}
+
+.MyOrderWrapContentMoneyList > li > span {
+  float: right;
+}
+
+.MyOrderWrapContentMoneyList > li > strong {
+  float: left;
+}
+
+.MyOrderWrapContentOrderMoney {
+  position: relative;
+  background-color: #fefee6;
+  padding: 0 10px;
+  font: bold 16px/70px "微软雅黑";
+}
+
+.MyOrderWrapContentOrderMoney > strong {
+  float: left;
+
+}
+
+.MyOrderWrapContentOrderMoney > span {
+  float: right;
+
+}
+
+.MyOrderWrapContentOrderMoney > span > em {
+  font-size: 12px;
+}
+
+.MyOrderWrapContentOrderMoneyBottomBg {
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 240px;
+  height: 8px;
+  background: url("../img/icon.png") no-repeat -129px -1px;
+}

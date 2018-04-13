@@ -1,0 +1,420 @@
+/*门票详情部分*/
+#wrapBoxa {
+  width: 1200px;
+  margin: 20px auto 0;
+}
+
+#wrapBox a {
+  display: inline-block;
+}
+
+.scenicSpotInformation {
+  width: 1188px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 34px 0;
+}
+
+.scenicSpotInformation > div {
+  float: left;
+}
+
+.scenicSpotInformation .pictureBox {
+  width: 498px;
+  height: 400px;
+  border: 1px solid #ddd;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.scenicSpotInformationContent {
+  width: 658px;
+}
+
+.scenicSpotInformationContent > * {
+  margin-left: 60px;
+}
+
+.scenicSpotInformationContent h1 {
+  font: 21px/25px "微软雅黑";
+  margin-bottom: 13px;
+}
+
+.scenicSpotInformationContent .money {
+  width: 663px;
+  margin-left: 0;
+  color: #999;
+  background-color: #efe4e2;
+  line-height: 53px;
+  font-size: 12px;
+  padding-left: 60px;
+  position: relative;
+}
+
+.scenicSpotInformationContent .money:before {
+  content: '';
+  position: absolute;
+  right: 1px;
+  bottom: -4px;
+  border: none;
+  border-left: 4px solid #a4371a;
+  border-bottom: 4px solid transparent;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  text-indent: 0;
+}
+
+.scenicSpotInformationContent .money strong {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f60;
+}
+
+.scenicSpotInformationContent .describe {
+  margin-top: 15px;
+  font: 12px/40px "微软雅黑";
+  color: #666;
+}
+
+.scenicSpotInformationContent .describe li {
+  position: relative;
+}
+
+.scenicSpotInformationContent .describe span {
+  color: #999;
+}
+
+.scenicSpotInformationContent .describe a {
+  color: #22c233;
+  margin-left: 10px;
+  padding-right: 16px;
+  background: url("../img/mapIcon.png") no-repeat right center;
+}
+
+.scenicSpotInformationContent .describe button {
+  font: 12px/19px "微软雅黑";
+  color: #ff7a20;
+  border: 1px solid #ff7a20;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+.scenicSpotInformationContent .describe strong {
+  width: 300px;
+  border: 1px solid #f90;
+  background-color: #fffbef;
+  color: #666;
+  padding: 9px;
+  top: -30px;
+  left: 130px;
+  display: none;
+  position: absolute;
+  font: 12px/15px "微软雅黑";
+}
+
+.scenicSpotInformationContent .describe strong i {
+  color: #f60;
+}
+
+.scenicSpotInformationContent .describe button:hover + strong {
+  display: block;
+}
+
+.scenicSpotInformationContent .scoreContent {
+  width: 611px;
+  height: 144px;
+  background: #f9f9f9;
+  margin-left: 30px;
+  padding: 12px;
+  font: 12px/26px "微软雅黑";
+  color: #999;
+}
+
+.scoreContent .score > * {
+  float: left;
+}
+
+.scoreContent .score strong {
+  font-size: 15px;
+  color: #f60;
+}
+
+.scoreContent .score {
+  margin-left: 36px;
+}
+
+.scoreContent .score em {
+  width: 1px;
+  height: 13px;
+  background-color: #dbbda5;
+  margin: 8px 50px 0;
+}
+
+.scoreContent .evaluateContent {
+  margin-top: 15px;
+}
+
+.scoreContent .evaluateContent > * {
+  float: left;
+}
+
+.scoreContent .evaluateContent .evaluate {
+  margin-left: 20px;
+}
+
+.scoreContent .evaluateContent .imgRotate {
+  float: right;
+  transform: rotate(180deg);
+  margin-top: 50px;
+}
+
+/*门票类型*/
+.admissionTicketType {
+  margin-top: 20px;
+  width: 1186px;
+  border: 2px solid #ffb622;
+  background-color: #fff;
+}
+
+.admissionTicketType .admissionTicketTypeContent {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.admissionTicketTypeContent .titleList {
+  background-color: #f9f9f9;
+  font: 12px/28px "微软雅黑";
+  color: #999999;
+}
+
+.admissionTicketTypeContent .titleList li {
+  float: left;
+  text-align: center;
+}
+
+.admissionTicketTypeContent .titleList .admissionTicketName {
+  width: 586px;
+  text-align: left;
+  text-indent: 25px;
+}
+
+.admissionTicketTypeContent {
+  font: 13px/66px "微软雅黑";
+}
+
+.admissionTicketTypeContent .productType {
+  margin-top: 13px;
+}
+
+.admissionTicketContent > .widthCommentA {
+  width: 586px;
+  float: left;
+  color: green;
+  text-align: left;
+  text-indent: 25px;
+}
+
+.admissionTicketTypeContent h5 {
+  font: bold 18px/24px "微软雅黑";
+  border-bottom: 3px solid #eee;
+}
+
+.admissionTicketContent {
+  border-bottom: 1px dotted #ddd;
+}
+
+.admissionTicketContent > * {
+  float: left;
+  text-align: center;
+}
+
+.admissionTicketContent .quan {
+  color: #f60;
+  font: 12px/19px "微软雅黑";
+  margin: 23px 0;
+  border: 1px solid #f60;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.admissionTicketContent .marketMoney {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.admissionTicketContent .myMoney {
+  color: #f60;
+}
+
+.admissionTicketContent .payment {
+  padding: 0;
+  width: 60px;
+  font: 12px/18px "微软雅黑";
+  text-align: center;
+  border: 1px solid #f60;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #f60;
+  margin: 13px 0 0 20px;
+}
+
+.admissionTicketContent .payment a {
+  font: 14px/24px "微软雅黑";
+  width: 100%;
+  background-color: #f60;
+  color: #fff;
+}
+
+.specialContent {
+  margin-top: 20px;
+}
+
+/*             主体部分              */
+
+/*主体部分导航*/
+#infrometionWrap {
+  width: 1190px;
+  margin-top: 20px;
+}
+
+.infrometionWrapNav {
+  width: 1190px;
+  padding-left: 38px;
+  padding-top: 5px;
+  font: 16px/40px "微软雅黑";
+  background-color: #535d63;
+}
+
+.infrometionWrapNav li {
+  float: left;
+}
+
+.infrometionWrapNav li .active {
+  background-color: #fff;
+  color: #22c233;
+}
+
+.infrometionWrapNav li a {
+  padding: 0 15px;
+  color: #fff;
+}
+
+/*预定需知*/
+.reserveContent {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.reserveContent .reservations {
+  width: 1020px;
+  float: left;
+}
+
+.reserveContent .reservations .openingHoursContent {
+  font: bold 12px/2 "微软雅黑";
+  color: #666;
+  margin-top: 14px;
+  padding-left: 10px;
+}
+
+/*景点介绍*/
+.introductionOfScenicSpots {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.introductionOfScenicSpots .introductionOfScenicSpotsContent {
+  width: 1020px;
+  float: left;
+}
+
+.introductionOfScenicSpots .detailsOfTheScenicSpots {
+  padding-left: 20px;
+}
+
+.detailsOfTheScenicSpots > div {
+  margin-top:10px;
+  font: 14px/1.5 "微软雅黑";
+}
+
+/*交通信息*/
+.trafficInformation {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.trafficInformation .trafficInformationContent {
+  width: 1020px;
+  float: left;
+}
+
+.trafficInformationContent .recommendRoute {
+  font: 14px/22px "微软雅黑";
+  color: #666;
+  padding-left: 20px;
+}
+
+.trafficInformationContent .recommendRoute li {
+  float: none;
+}
+
+.trafficInformationContent .recommendRoute strong {
+  margin-right: 5px;
+  float: left;
+}
+
+.trafficInformationContent .recommendRoute span {
+  color: #111;
+  width: 900px;
+  float: left;
+}
+
+.trafficInformationContent .trafficGuide {
+  margin-top: 10px;
+}
+
+.mapBoxWrap {
+  width: 1020px;
+  height: 400px;
+  background-color: #b3d8ff;
+  margin-top: 30px;
+}
+
+/*地图*/
+#allmap {
+  width: 1020px;
+  height: 400px;
+  z-index: 9900;
+  font-family: "微软雅黑";
+}
+
+.reserveTime {
+  width: 122px;
+}
+
+.marketValue {
+  width: 86px;
+}
+
+.myPrice {
+  width: 134px;
+}
+
+.discount {
+  width: 74px;
+}
+
+.paymentMethod {
+  width: 98px;
+}
+
+

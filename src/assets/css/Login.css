@@ -1,0 +1,223 @@
+html,
+body {
+  background-color: #fff;
+}
+
+a {
+  display: inline-block;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+#wrapBox {
+  margin: 0;
+  width: 100%;
+}
+
+/*头部logo*/
+.huLeYouLogo {
+  padding: 20px 0;
+
+  width: 1180px;
+  margin: 0 auto;
+}
+.loginBoxWrap {
+  position: relative;
+  width:100%;
+  height:560px;
+  background: url("../img/LoginBg.png") no-repeat;
+}
+/*登录框*/
+.loginBox {
+  position: absolute;
+  top:10%;
+  left:60%;
+  background-color: #fff;
+  width: 400px;
+  border: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.loginBox .loginSwitch {
+  padding: 15px 0;
+  font: 17px/1.5 "微软雅黑";
+  border-bottom: 1px solid #ebebeb;
+}
+
+.loginBox .loginSwitch .active {
+  color: #4bc233;
+}
+
+.loginBox .loginSwitch a {
+  text-align: center;
+  width: 50%;
+  float: left;
+  color: #ccc;
+}
+
+.loginBox .loginSwitch a:nth-of-type(1) {
+  box-shadow: 1px 0 #ccc;
+}
+
+.loginBox .inputBox {
+  text-align: center;
+  margin-top: 50px;
+}
+.loginBox .inputBox div {
+  font: 14px/2 "微软雅黑";
+  text-align: right;
+  margin-right:50px;
+  color: #666;
+}
+.loginBox .inputBox div a {
+  color: #f60;
+}
+.loginBox .inputBox input {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 330px;
+  padding: 5px 10px 5px 30px;
+  border: 1px solid #ccc;
+  font: 12px/2.3 "微软雅黑";
+}
+
+.loginBox .inputBox .AccountNumber {
+  background: url("../img/loginIcon1.png") no-repeat 5px 7px;
+}
+
+.loginBox .inputBox .password {
+  background: url("../img/loginIcon2.png") no-repeat 5px 7px;
+  margin-top: 20px;
+}
+
+.loginBox .inputBox .loginBtn {
+  width: 330px;
+  font: 16px/2.5 "微软雅黑";
+  background-color: #f60;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/*扫码登录*/
+.loginBox .QRCode {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.loginBox .QRCode h5 {
+  font: 16px/2 "微软雅黑";
+  text-align: center;
+  padding-left: 35px;
+  background: url("../img/sweep.png") no-repeat 100px 0;
+  -webkit-background-size: 25px;
+  background-size: 25px;
+  color: #333;
+}
+
+.QRCode .QRCodeImgBox .QRCodeImage {
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+.QRCode > p {
+  font: 14px/32px "微软雅黑";
+  text-align: center;
+  color: #999;
+}
+
+.loginBox > .QRCode > .downloadAndRegister {
+  margin: 0 auto;
+  width: 330px;
+  font: 14px/20px "微软雅黑";
+}
+
+.downloadAndRegister .downloadAPP {
+  float: left;
+  color: #22c233;
+}
+
+.downloadAndRegister .register {
+  float: right;
+  color: #ff9e4c;
+}
+
+.downloadAndRegister span {
+  float: right;
+}
+
+/*其他登录方式*/
+.other {
+  margin-top: 35px;
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+
+.otherLogin {
+  font: 12px/2 "微软雅黑";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -12px;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.other .otherLoginList {
+  width: 320px;
+  margin: 25px auto 0;
+  text-align: center;
+}
+
+.other .otherLoginList li {
+  float: left;
+
+}
+
+.otherLoginList li a {
+  text-indent: 2rem;
+  color: #666;
+  width: 80px;
+  box-shadow: 1px 0 #ddd;
+  background-position: 10px 0;
+}
+
+.otherLoginList li:last-of-type a {
+  box-shadow: none;
+}
+
+.weiXin {
+  background: url("../img/weixinv2.png") no-repeat;
+  -webkit-background-size: 19px 15px;
+  background-size: 19px 15px;
+}
+
+.QQ {
+  background: url("../img/qqv2.png") no-repeat;
+  -webkit-background-size: 12px 15px;
+  background-size: 12px 15px;
+}
+
+.weiBo {
+  background: url("../img/weibov2.png") no-repeat;
+  -webkit-background-size: 19px 15px;
+  background-size: 19px 15px;
+}
+
+.heZuoCard {
+  background: url("../img/cardv2.png") no-repeat;
+  -webkit-background-size: 15px 15px;
+  background-size: 15px 15px;
+}

@@ -1,0 +1,108 @@
+.MerchantRegisterWrapHeader {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.MerchantRegisterWrapHeaderLogoBox {
+  float: left;
+  padding: 10px 0;
+}
+
+.MerchantRegisterWrapHeaderHomePage {
+  float: right;
+  font: 14px/24px "微软雅黑";
+  margin-top: 30px;
+}
+
+.MerchantRegisterWrapHeaderHomePage > a {
+  color: #f60;
+  padding: 0 10px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+
+}
+
+.MerchantRegisterWrapHeaderHomePage > a:hover {
+  border-color: #f60;
+}
+
+.MerchantRegisterNavWrap {
+  width: 100%;
+  background-color: #3d424e;
+  font: 14px/37px "微软雅黑";
+  border-bottom: 3px solid #fc821e;
+}
+
+.MerchantRegisterNav {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.MerchantRegisterNavContent a {
+  float: left;
+  padding: 0 60px;
+  color: #fff;
+}
+.MerchantRegisterNavContent a.active{
+  background-color: #f60;
+}
+
+.MerchantRegisterTabel {
+  width: 1200px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+
+.ContactsContent > h5,
+.ContactsSettlementCurrencyContent > h5,
+.ContactsCompanySizeWrap > h5,
+.ContactsTypeOfCooperation > h5,
+.ContactsScopeOfOperationWrap > h5,
+.companyContent>h5,
+.cooperationContent>h5,
+.qualificationsContent>h5{
+  width: 100%;
+  font: bold 12px/3 "微软雅黑";
+  text-indent: 1rem;
+  background-color: #eee;
+  color: #666;
+}
+
+.ContactsBox {
+  margin-top: 20px;
+}
+
+.MerchantRegisterTabel .formSearch {
+  width: 50%;
+  text-align: center;
+}
+
+.MerchantRegisterTabel .formSearch span {
+  text-align: center;
+}
+
+.MerchantRegisterTabel > div > div {
+  margin-top: 20px;
+}
+#ScopeOfOperationType,
+.ContactsBox #ScopeOfOperationType1{
+  width:100%;
+}
+.ContactsSubmitWrap {
+  padding-bottom: 50px;
+  width: 1200px;
+  margin: 10px auto;
+  font: 16px/2 "微软雅黑";
+}
+.ContactsSubmitWrap>a {
+  display: inline-block;
+  padding: 0 20px;
+  background-color: #f40;
+  color: #fff;
+}
+.ContactsSubmitWrap>a:hover {
+  background-color: #f60;
+  color: #fff;
+}

@@ -1,0 +1,135 @@
+.personakCenterWrapHeader {
+  width: 100%;
+  background-color: #00cd4c;
+}
+
+.personakCenterWrapHeaderContent {
+  padding: 10px 0;
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.personakCenterWrapHeaderContentLogo {
+  float: left;
+}
+
+.personakCenterWrapHeaderContentLogo > img {
+  float: left;
+}
+
+.personakCenterWrapHeaderContentLogo > strong {
+  float: left;
+  font: 30px/1 "宋体";
+  margin-top: 25px;
+  color: #fff;
+}
+
+.personakCenterWrapHeaderContentNav {
+  margin-left: 30px;
+  float: left;
+}
+
+.personakCenterWrapHeaderContentNav > li {
+  float: left;
+  font: 18px/58px "微软雅黑";
+}
+
+.personakCenterWrapHeaderContentNav > li > a {
+  color: #fff;
+  padding: 0 25px;
+}
+
+.goHomePage {
+  float: right;
+  font: 12px/3 "微软雅黑";
+  margin-top: 20px;
+}
+
+.goHomePage > a {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0 20px;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
+}
+
+.goHomePage > a:hover {
+  color: #f60;
+  border-color: #f60;
+}
+
+/*内容*/
+.personakCenterContentWrapP {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 15px;
+}
+
+.personakCenterContentWrap {
+  width: 1190px;
+  margin: 0 auto;
+  color: #000;
+  background-color: #f8f8f8;
+  padding-bottom: 20px;
+}
+
+.personakCenterContentWrapLeftNav {
+  float: left;
+  width: 180px;
+  height: 467px;
+  text-align: center;
+  background-color: #19c563;
+  padding: 10px 0;
+}
+
+.personakCenterContentWrapLeftNav > ul > li {
+  margin-top: 10px;
+}
+
+.personakCenterContentWrapLeftNav > ul > li > a {
+  font: bold 16px/36px "微软雅黑";
+  position: relative;
+}
+
+.personakCenterContentWrapLeftNav a {
+  color: #fff;
+}
+
+.MyOrderDetailsList {
+  font: bold 14px/30px "微软雅黑";
+}
+
+.personakCenterContentWrapLeftNav i {
+  position: absolute;
+  top: 15px;
+  left: 130px;
+  width: 10px;
+  height: 10px;
+  background: url("../img/arrow.png") no-repeat;
+}
+
+.personakCenterContentWrapLeftNavMyOrder > a {
+   background: url("../img/order.png") no-repeat 35px 10px;
+ }
+.personakCenterContentWrapLeftNavCash > a {
+  background: url("../img/cash.png") no-repeat 35px 10px;
+}
+
+.MyOrderDetailsList {
+  display: block;
+}
+
+.personakCenterType > a {
+  background: url("../img/message.png") no-repeat 35px 10px;
+}
+
+.personakCenterContentWrapRightContent {
+  float: left;
+  width: 990px;
+  margin-left: 20px;
+}
+
+
+
+

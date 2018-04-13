@@ -1,0 +1,112 @@
+html,
+body,
+#bgBox {
+  width: 100%;
+  height: 100%;
+}
+
+#bgBox {
+  background: url("../img/register_bg.jpg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.hearder {
+  background-color: #fff;
+  border-bottom: 3px solid #2e9900;
+}
+
+.hearder .huLeYouLogo a {
+  display: inline-block;
+}
+
+.hearder .huLeYouLogo strong {
+  display: inline-block;
+  font: 25px/47px "微软雅黑";
+  border-left: 1px solid #efefef;
+  padding-left: 30px;
+  vertical-align: bottom;
+}
+
+.registerDetails {
+  width: 1200px;
+  margin: 0 auto 100px;
+}
+
+.registerDetails .titel {
+  font: 20px/3 "微软雅黑";
+  text-align: center;
+  background-color: #43b413;
+  color: #fff;
+  margin-top: 75px;
+}
+
+.registerDetails .registerDetailsContent {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.registerInputBox {
+  font: 16px/2 "微软雅黑";
+  width: 400px;
+  margin: 50px auto 0;
+}
+
+.registerInputBox .telephoneNumber input,
+.registerInputBox .password input,
+.registerInputBox .repeatPassword input {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 200px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.registerInputBox .verificationCode input {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 150px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.registerInputBox .verificationCode a {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 20px;
+  background-color: orange;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.successContent {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.successContent i {
+  font-size: 70px;
+  line-height: 100px;
+  color: #43b313;
+}
+
+.successContent span {
+  font: 30px/2 "微软雅黑";
+  display: block;
+  color: #43b313;
+  transform: translateX(20px);
+}
+
+.successContent a {
+  font: 16px/2 "微软雅黑";
+  text-align: right;
+  color: #43b313;
+}
